@@ -11,16 +11,16 @@
   
 
 
-// var getDayofWeek = () => {
+var getDayofWeek = () => {
 
-//   button.addEventListener("click",() => {
-//     let birthday = document.getElementById("dateid").value
-//     let birthday2 = new Date(birthday)
-//     let dayO = birthday2.getDay()
-//     let realday = days[dayO]
-//     console.log(realday)
-//   })}
-//   getDayofWeek()
+  button.addEventListener("click",() => {
+    let birthday = document.getElementById("dateid").value
+    let birthday2 = new Date(birthday)
+    let dayO = birthday2.getDay()
+    let realday = days[dayO]
+    console.log(realday)
+  })}
+  getDayofWeek()
 
 //   let dayOfBirth = getDayofWeek()
 
