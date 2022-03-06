@@ -1,12 +1,30 @@
 body{
-  background-image: url("./Images/aedrian-dYzK7CZF35M-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./Images/4CwhI8.jpg");
+
+}
+.only{
+  margin-top: 220px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+h1{
+  color: antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: xx-large;
+}
+p{
+  color: rgb(123, 123, 231);
+}
+h1:hover{
+  color: rgb(123, 123, 231);
+}
+p:hover{
+  color: antiquewhite;
 }
 .container{
   background-color: rgb(123, 123, 231);
   margin-top: 80px;
-
 }
 #submitid{
   background-color: antiquewhite;
