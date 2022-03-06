@@ -22,7 +22,7 @@ var getDayofWeek = () => {
   })}
   getDayofWeek()
 
-//   let dayOfBirth = getDayofWeek()
+  let dayOfBirth = getDayofWeek()
 
 //   var getAkanname = () => {
 
