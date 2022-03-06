@@ -4,7 +4,15 @@ body{
   background-size: cover;
 }
 .container{
-  background-color: antiquewhite;
+  background-color: rgb(123, 123, 231);
   margin-top: 80px;
 
+}
+#submitid{
+  background-color: antiquewhite;
+  color:black;
+}
+#submitid:hover{
+  color:black;
+  background-color: rgb(123, 123, 231);
 }
