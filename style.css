@@ -7,6 +7,9 @@ body{
   margin-left: 150px;
   margin-right: 150px;
 }
+a{
+  color: antiquewhite;
+}
 h1{
   color: antiquewhite;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
