@@ -14,17 +14,17 @@
       <div class="row mt-5 py-4 px-4">
           <label for="dateOfBirth" class="col-sm-2 col-form-label">Date</label>
           <div class="col-sm-4">
-              <input type="Date"id="dateid" class="form-control" placeholder="Date" required>
+              <input type="Date"id="dateid" class="form-control" placeholder="Date">
           </div>
       </div>
       <div class="row mt-4 py-4 px-4">
         <div class="col-12">
             <div class="form-check form-check-inline">
-                <input type="radio"id="femaleid" class="form-check-input" name="gender" id="radioMale" checked>
+                <input type="radio" id="femaleid" class="form-check-input" name="gender" value="female">
                 <label class="form-check-label" for="radioMale">Male</label>
             </div>
             <div class="form-check form-check-inline ms-3">
-                <input type="radio"id="maleid" class="form-check-input" name="gender" id="radioFemale">
+                <input type="radio"id="maleid" class="form-check-input" name="gender" value="male">
                 <label class="form-check-label" for="radioFemale">Female</label>
             </div>
         </div>
@@ -34,12 +34,16 @@
               <button type="submit" id="submitid"class="btn btn-primary">Submit</button>
           </div>
       </div>
+      
   </form>
+  
 </div>
 
 
 
-
+<footer>
+    <p text="center">&copy2022. All rights reserved</p>
+  </footer>
 
 
 <script src="index.js"></script>

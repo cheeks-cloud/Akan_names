@@ -15,9 +15,11 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: oblique;
   font-size: xx-large;
+  font-weight: bolder;
 }
 p{
   color: rgb(123, 123, 231);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1:hover{
   color: rgb(123, 123, 231);
@@ -37,3 +39,20 @@ p:hover{
   color:black;
   background-color: rgb(123, 123, 231);
 }
+footer{
+  text-align: center;
+  margin-top: 50px;
+}
+.ouput{
+  background-color: red;
+  display: block;
+  height: 80px;
+  width: 40px;
+  border: 2px solid black;
+  margin-top: 160px;
+}
+@media screen and (max-width: 740px){
+}
+
+
+

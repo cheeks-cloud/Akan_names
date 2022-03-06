@@ -9,7 +9,7 @@
   var female = document.getElementById("femaleid")
   var male = document.getElementById("maleid")
   
-
+  
 
 var getDayofWeek = () => {
 
@@ -23,17 +23,36 @@ var getDayofWeek = () => {
 
     let Makanname = akanMnames[dayO]
 
-      if(female){
-      document.write(`Your birthday is on  ${realday}
-      your Akanname is ${Fakanname}`)
-      }else if(male){
-       document.write(`Your birthday is on  ${realday}
-      your Akanname is ${Makanname}`)
-      }else{
-       document.write("choose gender")
-      }
+      if(birthday === ""){
+        alert("Give a date")
+      } else if(female.checked != true && male.checked !=true){
+      alert("choose gender")
+      }else { if(female.checked === true){
+        alert(`Your birthday is on  ${realday}
+       your Akanname is ${Fakanname}`)
+      } else {
+       alert(`Your birthday is on  ${realday}
+       your Akanname is ${Makanname}`)
+      }}
+
 
   })}
   
 
 getDayofWeek()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
