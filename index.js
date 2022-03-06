@@ -18,23 +18,22 @@ var getDayofWeek = () => {
     let birthday2 = new Date(birthday)
     let dayO = birthday2.getDay()
     let realday = days[dayO]
-    
 
     let Fakanname = akanFnames[dayO]
 
     let Makanname = akanMnames[dayO]
 
       if(female){
-      console.log(`Your birthday is on  ${realday}
-      your akanname is ${Fakanname}`)
+      document.write(`Your birthday is on  ${realday}
+      your Akanname is ${Fakanname}`)
       }else if(male){
-       console.log(`Your birthday is on  ${realday}
-      your akanname is ${Makanname}`)
+       document.write(`Your birthday is on  ${realday}
+      your Akanname is ${Makanname}`)
       }else{
-       console.log("choose gender")
+       document.write("choose gender")
       }
 
   })}
   
-// getakanname()
+
 getDayofWeek()
