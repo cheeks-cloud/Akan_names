@@ -65,3 +65,8 @@
   agneskaswii700@gmail.com
 
   [Go back to the top](#Akan_name)
+
+  ## BDD
+  * write a function to find birthday and display it
+  * write a function that relates birthday to akan name
+  * display both birtday and akan name
