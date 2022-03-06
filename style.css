@@ -1,0 +1,10 @@
+body{
+  background-image: url("./Images/aedrian-dYzK7CZF35M-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  background-color: antiquewhite;
+  margin-top: 80px;
+
+}
