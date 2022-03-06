@@ -36,5 +36,5 @@ var getDayofWeek = () => {
 
   })}
   
-
+// getakanname()
 getDayofWeek()
